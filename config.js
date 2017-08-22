@@ -40,7 +40,9 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.bitpay.com:443',
+      // todo: Change to real web address of 'insight'
+      // origin - 'https://insight.bitpay.com:443', http://62.149.13.59:3001/insight/ http://localhost:3001/insight
+      url: 'http://localhost:3001/insight',
     },
     testnet: {
       provider: 'insight',
